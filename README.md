@@ -2,17 +2,26 @@
 
 Combination and continuation of JOrbis, JavaSPI and Tritonus-Share to provide Ogg/Vorbis playback capabilities for Java using the Sound SPI.
 
-## Download, License, Feedback
+### Step 1. Add the JitPack repository to your build file
+https://jitpack.io/private#goxr3plus/java-vorbis-support
+``` XML
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+        </repository>
+</repositories>
+```
 
-- [Homepage](https://github.com/Trilarion/java-vorbis-support) of java-vorbis-support
-- Requires Java 7 or later
-- Download [vorbis-support-1.1.0.jar](https://github.com/Trilarion/java-vorbis-support/releases/download/v1.1.0/vorbis-support-1.1.0.jar) (released 15th July 2015) and/or [source code](https://github.com/Trilarion/java-vorbis-support/releases/tag/v1.1.0)
-- License is [LGPLv3+](http://www.gnu.org/licenses/lgpl-3.0.txt)
-- Support/Feedback: Create an [issue](https://github.com/Trilarion/java-vorbis-support/issues)
+###  Step 2. Add the dependency
+``` XML
+<dependency>
+   <groupId>com.github.goxr3plus</groupId>
+   <artifactId>java-vorbis-support</artifactId>
+   <version>8.0.0</version>
+</dependency>
+```
 
-On Maven Central:
-- [vorbis-support 1.0.0](https://search.maven.org/#artifactdetails%7Ccom.github.trilarion%7Cvorbis-support%7C1.0.0%7Cjar) licensed under LGPLv2+
-- [vorbis-support 1.1.0](https://search.maven.org/#artifactdetails%7Ccom.github.trilarion%7Cvorbis-support%7C1.1.0%7Cjar) licensed under LGPLv3+
 
 ## Introduction
 
