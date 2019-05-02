@@ -2,6 +2,7 @@
 
 Combination and continuation of JOrbis, JavaSPI and Tritonus-Share to provide Ogg/Vorbis playback capabilities for Java using the Sound SPI.
 
+# TODO NOT WORKING YET
 ### Step 1. Add the JitPack repository to your build file
 https://jitpack.io/private#goxr3plus/java-vorbis-support
 ``` XML
@@ -18,7 +19,7 @@ https://jitpack.io/private#goxr3plus/java-vorbis-support
 <dependency>
    <groupId>com.github.goxr3plus</groupId>
    <artifactId>java-vorbis-support</artifactId>
-   <version>8.0.0</version>
+   <version>TAG</version>
 </dependency>
 ```
 
